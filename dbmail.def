@@ -1,0 +1,15 @@
+<?php
+ /* -----------------------------------------------------------
+			Constants used inside DBMail. 
+ ----------------------------------------------------------- */
+
+	define('MailServer', '{GREP:143}');	// address of the mail server
+	define('DoneBox', 'Done');		// name of a folder where email are stored
+	define('UseSpamRemoving', 'No');	// use bunch removing of spam emails
+	define('UseGroupRemoving', 'Yes');	// use group removing of spam emails
+	define('UseSelectAll', 'Yes');		// use select all whene emails are assigned
+	define('UseForward', 'Yes');		// use Forward in the Manager's layer
+	define('UseForwardU', 'No');		// use Forward in the User's layer
+	define('NAttFiles', 3);			// number of attached files
+
+?>
